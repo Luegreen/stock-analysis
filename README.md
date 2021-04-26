@@ -39,10 +39,14 @@
   
   Refactoring enables a coder to reorganize and edit to create a more robust, faster, better commented and easier to read script. When analysing a script for refactoring, redundnacies become more clear and duplicate pathways can be reduced. It is also a good way to understand a program. 
   
+  A disadvantage to refactoring is that you may spend a fair amount of time working with a code and not actually make it better. There are styles of coding and in refactoring you may make the code complient to your preference but not actually make it more robest. In some ways you will only gain a knowledge of the workings of the code... and I suppose you may make the code worse by having it take longer to process. 
+  
   
   
   **Advantages and Disadvantages of the original and refactored VBA script**
   
-  When refactoring the VBA script, I realized why the previous code worked and was able to undestand it on a deeper level. The names of each variable were changed to make them more intuitive and the code became more viable for adding a larger data base. The biggest take away was that the formatting took a substantial hit on the run time of the code. By combining formatting into the script itself, rather than have it be a stand alone script, the UX was much improved but the formatting choices made by the guide ended up usurping any refactoring advantage that had been created by the non-formatted processed script. 
+  When refactoring the VBA script, I realized why the previous code worked and was able to understand it on a deeper level. The names of each variable were changed to make them more intuitive and the code became more viable for adding a larger data base. The biggest take away was that the formatting took a substantial hit on the run time of the code. By combining formatting into the script itself, rather than have it be a stand alone script, the UX was much improved but the formatting choices made by the guide ended up usurping any refactoring advantage that had been created by the non-formatted processed script. 
+  
+  If I had more time and deeper skills, I'd like to refactor the piece of code that now had the ticker indexes listed by hard code. I could make the script just select the 'next' ticker code and I'd be curious to see if that ran faster than the hard code. Even if it wasn't faster, it would reduce potential human error and also make it more useful as a code block for analysis of other scripts. 
   
   
