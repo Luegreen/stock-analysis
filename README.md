@@ -1,4 +1,5 @@
- #stock-analysis
+ # Stock-analysis
+ ### VBA scripting, writing repeatable code for Excel, refactoring that code for speed and production. 
  
  ### Overview of Project
  Using VBA, the objective was to create code that could analyse multiple stocks with the click of a button, aiding a hypothetical client in chosing a successful stock purchase for his parents. He was headed to DQ and, with the aid of this analysis, would be able to confirm that choice of stock option or make a better one. 
