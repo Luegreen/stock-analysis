@@ -27,8 +27,9 @@ Using VBA, the objective was to create code that could analyse multiple stocks w
  
 On first analysis, the refactored script ran slower than my original script by .05 seconds for 2017 and .03 seconds for 2018. This was discouraging until I realized that the refactored script was also formatting the final graph. My original script had no formatting. I built the formatting script separately and added it into the GUI as a second button option (run the script by a button to analyse the stocks, then push another button to format your graph). So, to get an apples to apples comparison, I realized that I had to equalize the scripts. I then took the formatting out of the refactored script to time it's run, and also I added formatting to the orignial script, and timed it's run. 
 
- The script runs any year with respect to the user's needs: 
- <img width="897" alt="Screen Shot 2021-10-12 at 2 47 47 PM" src="https://user-images.githubusercontent.com/14239715/137012618-c6862def-c050-4a8f-b32b-c48cec454ad8.png">
+ The script runs any year with respect to the user's needs:
+ <img width="1193" alt="Screen Shot 2021-10-12 at 2 57 14 PM" src="https://user-images.githubusercontent.com/14239715/137013475-34c55322-ad50-484a-856f-f9b11d605ec8.png">
+<img width="1191" alt="Screen Shot 2021-10-12 at 2 57 28 PM" src="https://user-images.githubusercontent.com/14239715/137013501-b82dd4a9-9fbb-451b-b805-abf514738656.png">
 <img width="713" alt="Screen Shot 2021-10-12 at 2 48 31 PM" src="https://user-images.githubusercontent.com/14239715/137012624-7715e1ba-5f9c-403d-a9f6-52ecbaa96bc2.png">
 <img width="718" alt="Screen Shot 2021-10-12 at 2 48 42 PM" src="https://user-images.githubusercontent.com/14239715/137012627-80013f34-b09a-4f37-9248-21ee50402f9f.png">
 <img width="668" alt="Screen Shot 2021-10-12 at 2 49 11 PM" src="https://user-images.githubusercontent.com/14239715/137012630-f8f6f24d-ba24-4c1a-a8c6-2759c2f3bf0a.png">
