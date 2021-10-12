@@ -2,7 +2,8 @@
  ### VBA scripting, writing repeatable code for Excel, refactoring that code for speed and production. 
  
  ### Overview of Project
- Using VBA, the objective was to create code that could analyse multiple stocks with the click of a button, aiding a hypothetical client in chosing a successful stock purchase for his parents. He was headed to DQ and, with the aid of this analysis, would be able to confirm that choice of stock option or make a better one. 
+Using VBA, the objective was to create code that could analyse multiple stocks with the click of a button, aiding a hypothetical client in chosing a successful stock purchase for his parents. He was headed to DQ and, with the aid of this analysis, would be able to confirm that choice of stock option or make a better one.
+ 
  
  ### Results
  **Comparing Performance between 2017 and 2018 for VBA Stocks:**
@@ -24,7 +25,19 @@
  
  **Execution time of original script and refactored script**
  
- On first analysis, the refactored script ran slower than my original script by .05 seconds for 2017 and .03 seconds for 2018. This was discouraging until I realized that the refactored script was also formatting the final graph. My original script had no formatting. I built the formatting script separately and added it into the GUI as a second button option (run the script by a button to analyse the stocks, then push another button to format your graph). So, to get an apples to apples comparison, I realized that I had to equalize the scripts. I then took the formatting out of the refactored script to time it's run, and also I added formatting to the orignial script, and timed it's run. The results are as follows:
+On first analysis, the refactored script ran slower than my original script by .05 seconds for 2017 and .03 seconds for 2018. This was discouraging until I realized that the refactored script was also formatting the final graph. My original script had no formatting. I built the formatting script separately and added it into the GUI as a second button option (run the script by a button to analyse the stocks, then push another button to format your graph). So, to get an apples to apples comparison, I realized that I had to equalize the scripts. I then took the formatting out of the refactored script to time it's run, and also I added formatting to the orignial script, and timed it's run. 
+
+ The script runs any year with respect to the user's needs: 
+ <img width="897" alt="Screen Shot 2021-10-12 at 2 47 47 PM" src="https://user-images.githubusercontent.com/14239715/137012618-c6862def-c050-4a8f-b32b-c48cec454ad8.png">
+<img width="713" alt="Screen Shot 2021-10-12 at 2 48 31 PM" src="https://user-images.githubusercontent.com/14239715/137012624-7715e1ba-5f9c-403d-a9f6-52ecbaa96bc2.png">
+<img width="718" alt="Screen Shot 2021-10-12 at 2 48 42 PM" src="https://user-images.githubusercontent.com/14239715/137012627-80013f34-b09a-4f37-9248-21ee50402f9f.png">
+<img width="668" alt="Screen Shot 2021-10-12 at 2 49 11 PM" src="https://user-images.githubusercontent.com/14239715/137012630-f8f6f24d-ba24-4c1a-a8c6-2759c2f3bf0a.png">
+<img width="1225" alt="Screen Shot 2021-10-12 at 2 50 04 PM" src="https://user-images.githubusercontent.com/14239715/137012635-33adf7db-a4fb-4670-9be9-8d5718ffd5fa.png">
+
+
+
+
+The results are as follows:
  
  
  <img width="330" alt="Screen Shot 2021-04-25 at 9 16 20 PM" src="https://user-images.githubusercontent.com/14239715/116016957-41482e80-a60c-11eb-9c45-956a42b4c7cd.png">
